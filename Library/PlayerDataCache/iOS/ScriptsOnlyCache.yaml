@@ -5,9 +5,6 @@ ScriptsOnlyBuild:
     ClusterVR.CreatorKit.Item.Implements.dll:
     - ClusterVR.CreatorKit.Item.Implements.Item
     - ClusterVR.CreatorKit.Item.Implements.RidableItem
-    ClusterVR.CreatorKit.Preview.dll:
-    - ClusterVR.CreatorKit.Preview.Common.CoroutineGenerator
-    - ClusterVR.CreatorKit.Preview.Common.TickGenerator
     ClusterVR.CreatorKit.World.Implements.dll:
     - ClusterVR.CreatorKit.World.Implements.DespawnHeights.DespawnHeight
     - ClusterVR.CreatorKit.World.Implements.SpawnPoints.SpawnPoint
