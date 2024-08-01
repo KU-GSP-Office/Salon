@@ -2,6 +2,12 @@ ScriptsOnlyBuild:
   usedScripts:
     ClusterVR.CreatorKit.Editor.dll:
     - ClusterVR.CreatorKit.Editor.Window.View.VenueUploadWindow
+    ClusterVR.CreatorKit.Item.Implements.dll:
+    - ClusterVR.CreatorKit.Item.Implements.Item
+    - ClusterVR.CreatorKit.Item.Implements.RidableItem
+    ClusterVR.CreatorKit.Preview.dll:
+    - ClusterVR.CreatorKit.Preview.Common.CoroutineGenerator
+    - ClusterVR.CreatorKit.Preview.Common.TickGenerator
     ClusterVR.CreatorKit.World.Implements.dll:
     - ClusterVR.CreatorKit.World.Implements.DespawnHeights.DespawnHeight
     - ClusterVR.CreatorKit.World.Implements.SpawnPoints.SpawnPoint
@@ -17,6 +23,8 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
   serializedClasses:
+    ClusterVR.CreatorKit.Item:
+    - ClusterVR.CreatorKit.Item.ItemId
     UnityEngine.CoreModule:
     - UnityEngine.Events.PersistentCallGroup
     UnityEngine.UI:
@@ -54,6 +62,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 1562}
     - Class: 114
       Script: {instanceID: 3024}
+    - Class: 114
+      Script: {instanceID: 4274}
+    - Class: 114
+      Script: {instanceID: 6678}
     - Class: 114
       Script: {instanceID: 6728}
     - Class: 114
@@ -95,6 +107,18 @@ ScriptsOnlyBuild:
     assemblyName: ClusterVR.CreatorKit.World.Implements.dll
     namespaceName: ClusterVR.CreatorKit.World.Implements.SpawnPoints
     className: SpawnPoint
+  - hash:
+      serializedVersion: 2
+      Hash: 0f8a7a49cb1008b34873dca1cb160dd8
+    assemblyName: ClusterVR.CreatorKit.Item.Implements.dll
+    namespaceName: ClusterVR.CreatorKit.Item.Implements
+    className: Item
+  - hash:
+      serializedVersion: 2
+      Hash: 75dd77d3eaf67a85b31ce41fca5ed55a
+    assemblyName: ClusterVR.CreatorKit.Item.Implements.dll
+    namespaceName: ClusterVR.CreatorKit.Item.Implements
+    className: RidableItem
   - hash:
       serializedVersion: 2
       Hash: a1aa98c78061c6f03a8c124cda576e67
