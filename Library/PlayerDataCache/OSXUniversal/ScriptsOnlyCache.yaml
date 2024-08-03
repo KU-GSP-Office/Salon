@@ -1,5 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp.dll:
+    - Broccoli.Controller.BroccoTreeController_1_2_5
     ClusterVR.CreatorKit.Editor.dll:
     - ClusterVR.CreatorKit.Editor.Window.View.VenueUploadWindow
     ClusterVR.CreatorKit.Item.Implements.dll:
@@ -65,6 +67,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4274}
     - Class: 114
+      Script: {instanceID: 4530}
+    - Class: 114
       Script: {instanceID: 6678}
     - Class: 114
       Script: {instanceID: 6728}
@@ -80,6 +84,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
+    - Class: 205
+      Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
     - Class: 222
@@ -87,6 +93,10 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 226
+      Script: {instanceID: 0}
+    - Class: 227
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -115,6 +125,12 @@ ScriptsOnlyBuild:
     className: Item
   - hash:
       serializedVersion: 2
+      Hash: ff153a48071ee21d89059f94889f64a4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Broccoli.Controller
+    className: BroccoTreeController_1_2_5
+  - hash:
+      serializedVersion: 2
       Hash: 75dd77d3eaf67a85b31ce41fca5ed55a
     assemblyName: ClusterVR.CreatorKit.Item.Implements.dll
     namespaceName: ClusterVR.CreatorKit.Item.Implements
@@ -140,5 +156,5 @@ ScriptsOnlyBuild:
   platform: 2
   scenePathNames:
   - Assets/venue_be22db6837e530a7248b6a84cf.unity
-  playerPath: /var/folders/kq/0z6z_hs16zx71vjxp89j4hg40000gn/T/DefaultCompany/My
+  playerPath: /var/folders/8r/sbcj01sn32xdy3hgpqfq60vm0000gp/T/DefaultCompany/My
     project/StandaloneOSX/venue_be22db6837e530a7248b6a84cf
