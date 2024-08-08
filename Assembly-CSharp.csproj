@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{36BD2BD0-1A0E-2F5D-6AE7-8E02A50FB18D}</ProjectGuid>
+    <ProjectGuid>{1A7F6485-5F6D-61A9-FEC4-013102C77216}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -67,7 +67,6 @@
     <None Include="Assets/CCKTemplate-master/Assets/ClusterCreatorKitTemplate/Music/Shaders/TextMeshShader.shader" />
     <None Include="Assets/CCKTemplate-master/Assets/ClusterVR/StaticResources/Screen/StandardMainScreen.shader" />
     <None Include="Assets/CCKTemplate-master/Assets/ClusterCreatorKitTemplate/GameCenter/Shaders/UnlitShadowCaster.shader" />
-    <None Include="Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Documentation/ReadMe.txt" />
     <None Include="Assets/CCKSample-master/ProjectSettings/ProjectVersion.txt" />
     <None Include="Assets/_Barking_Dog/Readme_Please.txt" />
   </ItemGroup>
