@@ -1,4 +1,7 @@
 Library/PackageCache/
 Logs/
 Temp/
-
+.vsconfig
+Assembly-CSharp.csproj
+mono_crash.mem.26853.1.blob
+salon.sln
